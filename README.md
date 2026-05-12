@@ -20,7 +20,7 @@ A tower defense game written in C++ with SFML graphics, music, and input handlin
      sfml-system.lib
      sfml-audio.lib`
    - For Debug mode, use the `-d` variants (e.g. `sfml-graphics-d.lib`)
-3. Copy the SFML DLL files from `SFML/bi`n into the folder where your `.exe` is generated (usually `x64/Debug` or `x64/Release`).
+3. Copy the SFML DLL files from `SFML/bin` into the folder where your `.exe` is generated (usually `x64/Debug` or `x64/Release`).
 4. Copy all asset files (images, fonts, audio files) into the same folder as the .exe:
    - background.png
    - cannontower.png, snipertower.png, machineguntower.png, slowtower.png
