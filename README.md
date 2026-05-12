@@ -1,7 +1,7 @@
 # Tower Defense Game
 A tower defense game written in C++ with SFML graphics, music, and input handling.
 
-# Compiling and Running the Game - 
+## Compiling and Running the Game - 
 ## Requirements
 
 - Windows OS
