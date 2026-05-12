@@ -2,13 +2,13 @@
 A tower defense game written in C++ with SFML graphics, music, and input handling.
 
 ## Compiling and Running the Game - 
-## Requirements
+### Requirements
 
 - Windows OS
 - Visual Studio 2022 
 - SFML 3.1.0 or later
 
-## Steps
+### Steps
 1. Install SFML
 2. Create a new project in Visual Studio and configure the project.
    - Go to Project → Properties
@@ -29,20 +29,20 @@ A tower defense game written in C++ with SFML graphics, music, and input handlin
    - backgroundmusic.ogg, wingame.ogg, lostgame.ogg
 5. Build and run the project in Visual Studio
 
-## Installing GUI Library - SFML
+### Installing GUI Library - SFML
 1. Go to https://www.sfml-dev.org/download/sfml/3.1.0/
 2. Download the version matching your Visual Studio compiler (e.g. Visual C++ 17 (2022) - 64-bit).
 3. Extract the downloaded zip to a location on your computer (e.g. `C:\SFM`L).
 4. Follow the configuration steps in the Compile and Run section above to link SFML to your Visual Studio project.
 
-## How to Play:
+### How to Play:
 1. Drag a tower from the Towers Shop sidebar on the right and drop it anywhere on the map to place it.
 2. Towers will automatically attack enemies that come into their range.
 3. Earn gold by killing enemies and spend it on placing more towers.
 4. Win the game by surviving all 5 waves.
 5. If enemies reach the exit, and you use up all 10 lives, game over.
 
-## Known Issues and Limitations:
+### Known Issues and Limitations:
 1. The game currently has a fixed total of 5 waves with no additional content beyond that.
 2. There is no pause button — once the game starts, it cannot be paused.
 3. There is no save/load system — progress is lost when the game is closed.
